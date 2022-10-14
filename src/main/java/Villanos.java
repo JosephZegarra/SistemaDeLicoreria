@@ -1,10 +1,12 @@
 public class Villanos{
 
- public String nombres[3];
+ public String[ ] nombres = new String[3];
+  
   
   public void Villanos(){
+    nombres[0]="";
     nombres[1]="";
     nombres[2]="";
-    nombres[3]="";
+    
   }
 }
